@@ -1,8 +1,8 @@
 {
-  "name": "puddler",
-  "version": "2.3.0",
+  "name": "BiomeStatistic",
+  "version": "1.0.0",
   "description": "",
-  "main": "Puddler.js",
+  "main": "BiomeStatistic.js",
   "scripts": {
     "test": "npx jest src/",
     "compile": "tsc -p ./tsconfig.json",
@@ -11,7 +11,7 @@
     "build": "npm run compile && webpack"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@babel/polyfill": "^7.12.1",

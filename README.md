@@ -7,7 +7,7 @@ github: https://github.com/IR0NSIGHT/BiomeStatistic
 
 # How to use
 
-1. download the [newest release](https://github.com/IR0NSIGHT/Puddler/releases) as a zip file
+1. download the [newest release]( https://github.com/IR0NSIGHT/BiomeStatistic/releases  ) as a zip file
 2. unpack the zip folder somewhere
 3. in WorldPainter, on the top toolbar, center-right, open "run script" and select BiomeStatistic.js from the folder where you unpacked the zip file
 4. Select your wanted parameters and run the script. You can leave the default values to get a quick run.
