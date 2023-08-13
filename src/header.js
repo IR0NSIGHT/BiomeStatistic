@@ -1,4 +1,3 @@
-// script.name=BiomeStatistics (by IR0NSIGHT)
 // script.description=Collect statistics about the biomes in the current map. Only displays permanent biomes, not autobiomes.
 
 //script.param.mcVersion.type=integer
