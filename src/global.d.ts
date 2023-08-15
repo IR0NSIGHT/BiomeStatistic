@@ -5,4 +5,5 @@ declare const dimension: import('./worldpainterStubs/typescript/Dimension').Dime
 declare const org: any; //org.pepsoft java package
 declare const params: {
   mcVersion: number;
+  pretty: boolean;
 };
