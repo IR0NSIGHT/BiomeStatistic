@@ -37,12 +37,16 @@ const biomesMap = biomes
     .map(a => ({
         name: a.name,
         count: a.count.toLocaleString(),
-        percent: (a.count / totalSurface * 100).toFixed(2)+"%",
+        percent: (a.count / totalSurface * 100).toFixed(2) + "%",
         id: a.id
     }))
 
+const {x, y} = {x: (end.x - start.x) / 1000, y: (end.y - start.y) / 1000}
+
+const information= { biomes: biomesMap, surface: x*y, width: x, height: y }
+
 if (params.pretty) {
-    log(formatOutput(biomesMap))
+    log(formatOutput(information))
 } else {
-    log("biomes: " + JSON.stringify(biomesMap,undefined,2))
+    log("biomes: " + JSON.stringify(information, undefined, 2))
 }
