@@ -53,4 +53,18 @@ biomes: [
 ]
 ```
 
+with "use Formatting" selected:
+```
+Deep Ocean:      48.12%
+Plains:          25.97%
+Forest:          13.00%
+Ocean:           6.30%
+River:           3.90%
+Windswept Hills: 1.55%
+Beach:           1.17%
+Snowy Plains:    0.07%
+Snowy Taiga:     0.01%
+Frozen River:    0.00%
+```
+
 MIT LICENSED
